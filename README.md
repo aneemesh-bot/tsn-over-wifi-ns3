@@ -9,7 +9,7 @@ Additional modifications: **ported to ns-3.36.1**
     - Different clocks but synchronized by design
     - An additional goal is to implement Fine Time Measurement (FTM) to obtain timestamps
     
-    ![Untitled](Wi-Fi%20QoS%20bridged%20to%20TSN%20topology%20fbee240c0fdf46f3a43604b78b685308/Untitled.png)
+    ![Untitled](https://file.notion.so/f/f/dac91141-a4f3-46d5-b1c8-065ad153880e/37af31d9-dde3-4d43-b805-753a8e045558/Untitled.png?id=e06e1e22-f781-45a8-a8e5-c745546065f1&table=block&spaceId=dac91141-a4f3-46d5-b1c8-065ad153880e&expirationTimestamp=1713254400000&signature=Og88jt3pA0KuRdOAkAp6A60fOinoJF5VXFaLiZ73dNY&downloadName=Untitled.png)
     
 
 # Advantages
