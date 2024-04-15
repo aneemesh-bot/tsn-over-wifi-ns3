@@ -1,4 +1,4 @@
-# Wi-Fi QoS bridged to TSN topology
+# Wi-Fi QoS bridged to TSN topology over ns-3 in C++
 
 Additional modifications: **ported to ns-3.36.1**
 
