@@ -1,7 +1,7 @@
 # Wi-Fi QoS bridged to TSN topology over ns-3 in C++
 
 Additional modifications: **ported to ns-3.36.1**
-Password to ZIP is 1234
+<p> Password to ZIP is 1234 </p>
 
 # Composition
 
@@ -24,11 +24,12 @@ Password to ZIP is 1234
 # Configuration
 
 - Setup process of ns-3.34 (I used **bake**) and ns-3.36.
-    - Ubuntu 20.04 containerized instance
+    - Ubuntu 20.04 containerized instance using Distrobox over Arch Linux
         - `sudo apt install g++ python3 python3-dev pkg-config sqlite3 cmake python3-setuptools git qtbase5-dev qtchooser qt5-qmake qtbase5-dev-tools gir1.2-goocanvas-2.0 python3-gi python3-gi-cairo python3-pygraphviz gir1.2-gtk-3.0 ipython3 openmpi-bin openmpi-common openmpi-doc libopenmpi-dev autoconf cvs bzr unrar gsl-bin libgsl-dev libgslcblas0 wireshark tcpdump sqlite libxml2 libxml2-dev libc6-dev libc6-dev-i386 libclang-dev llvm-dev automake python3-pip libxml2 libxml2-dev libboost-all-dev`
         - `git clone [https://gitlab.com/nsnam/ns-3-dev.git](https://gitlab.com/nsnam/ns-3-dev.git) && cd ns-3-dev`
         - `git checkout -b ns-3.36.1-branch ns-3.36.1`
-        - VS Code running on the same instance to utilize container’s libraries
+        - Extract the ZIP, paste it over the ns-3-dev/src folder, and accept any replacements of pre-existing files.
+        - I have VS Code running on the same instance to utilize the Distrobox container’s libraries
         - The porting process resolves the non-termination issue in ns-3.34 since 3.36 supports concurrent execution of applications and Flowmon displays statistics after the execution is over. Additionally, CMake allows easier debugging through IDEs.
             - launch.json for debugging ns-3.36
             
