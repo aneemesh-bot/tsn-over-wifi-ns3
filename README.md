@@ -1,6 +1,7 @@
 # Wi-Fi QoS bridged to TSN topology over ns-3 in C++
 
 Additional modifications: **ported to ns-3.36.1**
+Password to ZIP is 1234
 
 # Composition
 
